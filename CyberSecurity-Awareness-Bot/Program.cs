@@ -14,8 +14,14 @@ namespace CyberBot
 
             // 2. Personalization
             myBot.TypeLine("Hello! I am your Cybersecurity Assistant. What is your name?");
-            Console.Write("Your Name: ");
-            myBot.UserName = Console.ReadLine();
+            string name;
+            do
+            {
+                Console.Write("Your Name: ");
+                name = Console.ReadLine();
+            } while (string.IsNullOrWhiteSpace(name));
+
+            myBot.UserName = name;
 
             myBot.TypeLine($"Nice to meet you, {myBot.UserName}! How can I help you stay safe today?", ConsoleColor.Cyan);
             Console.WriteLine("--------------------------------------------");
