@@ -40,15 +40,25 @@ namespace CyberBot
         public void DisplayAsciiArt()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
+
             Console.WriteLine(@"
-              _______
-             /       \
-            |  [###]  |  CYBER AWARENESS BOT
-             \_______/   v1.0
-            ");
+   ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██████╗  ██████╗ ████████╗
+  ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔═══██╗╚══██╔══╝
+  ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝██████╔╝██║   ██║   ██║   
+  ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗██╔══██╗██║   ██║   ██║   
+  ╚██████╗   ██║   ██████╔╝███████╗██║  ██║██████╔╝╚██████╔╝   ██║   
+   ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝    ╚═╝   
+
+                 PROTECT • DETECT • RESPOND
+    ");
+
             Console.ResetColor();
-            Console.WriteLine("============================================");
+
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("========================================================");
+            Console.ResetColor();
         }
+
 
         public void HandleUserQuery(string input)
         {
