@@ -41,3 +41,15 @@ ChatGPT. (2025). ChatGPT. [online] Available at: https://chatgpt.com/c/69cc1350-
 ‌
 ChatGPT. (2025). ChatGPT. [online] Available at: https://chatgpt.com/c/69cbc8c8-91ec-8328-b010-c690cab34080.
 ‌ https://youtu.be/QMhaBGD7eBQ
+
+code attribution 
+/* S!--CODE ATTRIBUTION-->
+<!--TITLE: (CyberSecurity-Awareness-Bot)->
+<--AUTHOR: (Adnan Yusra)->
+SDATE: (30/03/2026)->
+<--VERSION: (FIREST EDITION) --3
+≤-AVAILABLE:
+(https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sour
+cedoc=%7B9C23B0F8-6BED-497E-B60C-
+1D56E59BEDAB%7D&file=PROG6221_MO.docx&action=default&mobileredirect=true)→>*/
+
