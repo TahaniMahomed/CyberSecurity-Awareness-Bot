@@ -15,7 +15,7 @@ namespace CyberBot
             try
             {
                 // Ensure welcome.wav is in the output folder (bin/Debug)
-                SoundPlayer player = new SoundPlayer("welcome.wav");
+                SoundPlayer player = new SoundPlayer("welcome2.wav");
                 player.Play();
             }
             catch (Exception)

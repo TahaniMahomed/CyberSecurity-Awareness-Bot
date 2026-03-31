@@ -9,11 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="welcome %281%29.wav" />
+    <None Remove="welcome2.wav" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="welcome (1).wav">
+    <Content Include="welcome2.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
