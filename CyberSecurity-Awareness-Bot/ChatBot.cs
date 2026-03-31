@@ -38,10 +38,10 @@ namespace CyberBot
         }
 
         public void DisplayAsciiArt()
-        {
-            Console.ForegroundColor = ConsoleColor.Cyan;
+{
+    Console.ForegroundColor = ConsoleColor.Cyan;
 
-            Console.WriteLine(@"
+    Console.WriteLine(@"
    ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██████╗  ██████╗ ████████╗
   ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔═══██╗╚══██╔══╝
   ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝██████╔╝██║   ██║   ██║   
@@ -52,13 +52,13 @@ namespace CyberBot
                  PROTECT • DETECT • RESPOND
     ");
 
-            Console.ResetColor();
+    Console.ResetColor();
 
-            Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine("========================================================");
-            Console.ResetColor();
-        }
-
+    Console.ForegroundColor = ConsoleColor.DarkGray;
+    Console.WriteLine("========================================================");
+    Console.ResetColor();
+}
+  
 
         public void HandleUserQuery(string input)
         {
@@ -78,6 +78,14 @@ namespace CyberBot
             else if (cleanInput.Contains("phishing"))
             {
                 TypeLine("Phishing is when scammers send fake emails to steal your bank login. Always check the sender's address!", ConsoleColor.Yellow);
+            }
+            else if (cleanInput.Contains("scam"))
+            {
+                TypeLine("Online scams often pretend to be banks or prizes. Never click suspicious links!", ConsoleColor.Yellow);
+            }
+            else if (cleanInput.Contains("virus"))
+            {
+                TypeLine("A virus can damage your system. Always install antivirus software and keep it updated.", ConsoleColor.Red);
             }
             else if (cleanInput.Contains("password"))
             {
