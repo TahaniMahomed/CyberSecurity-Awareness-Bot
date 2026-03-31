@@ -32,12 +32,12 @@ namespace CyberBot
             {
                 Console.Write($"{myBot.UserName}: ");
                 string input = Console.ReadLine();
-
                 if (input.ToLower() == "exit" || input.ToLower() == "quit")
                 {
                     running = false;
-                    myBot.TypeLine("Stay safe out there! Goodbye.");
-                }
+                    myBot.TypeLine($"GOODBYE {myBot.UserName}, STAY CYBER SAFE!", ConsoleColor.Green);
+                
+            }
                 else
                 {
                     myBot.HandleUserQuery(input);
